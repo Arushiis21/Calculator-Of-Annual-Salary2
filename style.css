@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+label {
+    margin-bottom: 5px;
+    /* display: block; */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+/* Added CSS for the layout */
+.row {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 10px;
+}
